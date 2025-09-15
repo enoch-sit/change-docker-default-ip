@@ -6,7 +6,7 @@
 1. **Make the Script Executable** (if not already):
    This sets execute permissions so you can run it directly.
    ```
-   chmod +x docker_install_and_ip_change.sh
+   sudo chmod +x script.sh
    ```
    - Replace `docker_install_and_ip_change.sh` with your actual script name.
 
@@ -14,7 +14,7 @@
    Use one of these methods:
    - **Preferred (Direct Execution)**:
      ```
-     sudo ./docker_install_and_ip_change.sh
+     sudo ./script.sh
      ```
      - The `./` assumes the script is in your current directory. If it's elsewhere, use the full path (e.g., `sudo /home/user/scripts/docker_install_and_ip_change.sh`).
    - **Alternative (Via Bash Interpreter)**:
