@@ -16,10 +16,10 @@
      ```
      sudo ./script.sh
      ```
-     - The `./` assumes the script is in your current directory. If it's elsewhere, use the full path (e.g., `sudo /home/user/scripts/docker_install_and_ip_change.sh`).
+     - The `./` assumes the script is in your current directory. If it's elsewhere, use the full path (e.g., `sudo /home/user/scripts/script.sh`).
    - **Alternative (Via Bash Interpreter)**:
      ```
-     sudo bash docker_install_and_ip_change.sh
+     sudo bash script.sh
      ```
      - This works even if the script isn't executable, as `bash` runs it.
 
