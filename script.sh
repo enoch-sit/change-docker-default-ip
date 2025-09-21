@@ -7,8 +7,8 @@ set -e  # Exit on any error
 
 # Configuration
 DOCKER_CONFIG_PATH="/var/snap/docker/current/config/daemon.json"
-SUBNET="10.20.0.0/24"
-BIP="10.20.0.1/24"
+SUBNET="10.20.0.0/16"
+BIP="10.20.0.1/16"
 SIZE=24
 TEST_CONTAINER_NAME="temp-ip-test"
 
